@@ -6,10 +6,10 @@ const Navbar = () => {
         <BsNavbar bg="dark" variant="dark" expand="lg" className="py-3">
             <Container>
                 <BsNavbar.Brand href="/" className="fw-bold text-info fs-4">
-                    VEX.E
+                    StyleSculpt
                 </BsNavbar.Brand>
-                <BsNavbar.Toggle aria-controls="vex.e-navbar" />
-                <BsNavbar.Collapse id="vex.e-navbar">
+                <BsNavbar.Toggle aria-controls="stylesculpt-navbar" />
+                <BsNavbar.Collapse id="stylesculpt-navbar">
                     <Nav className="ms-auto">
                         <Nav.Link href="/" className="text-info text-light">
                             Home
