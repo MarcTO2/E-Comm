@@ -1,7 +1,10 @@
 import React from "react";
 import { Container, Nav, Navbar as BsNavbar } from "react-bootstrap";
+import { useCart } from "../context/CartContext";
 
 const Navbar = () => {
+    const { cartCount } = useCart();
+    
     return (
         <BsNavbar bg="dark" variant="dark" expand="lg" sticky="top" className="py-3 shadow-sm">
             <Container fluid>
@@ -21,7 +24,7 @@ const Navbar = () => {
                             About
                         </Nav.Link>
                         <Nav.Link href="/cart" className="text-info text-light">
-                            Cart
+                            Cart <span className="badge bg-info text-dark">{cartCount}</span>
                         </Nav.Link>
                     </Nav>
                 </BsNavbar.Collapse>
