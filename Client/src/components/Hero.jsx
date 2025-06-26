@@ -4,10 +4,10 @@ import { Container, Button, Row, Col } from "react-bootstrap";
 const Hero = () => {
     return (
         <section className="bg-black text-light py-5" id="hero">
-            <Container>
+             <Container fluid="lg">
                 <Row className="align-items-center">
                     <Col md={6} className="text-center text-md-start">
-                        <h1 className="display-4 fw-bold text-info">Level Up Your Style!</h1>
+                         <h1 className="display-4 fw-bold text-info">Level Up Your Style!</h1>
                         <p className="lead text-muted">Discover the future of fashion. Where your wear meets sleek design.</p>
                         <Button variant="outline-info" size="lg" href="#products">Shop Now</Button>
                     </Col>

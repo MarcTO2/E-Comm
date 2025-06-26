@@ -30,7 +30,7 @@ const sampleProducts = [
 const ProductGrid = () => {
   return (
     <section className="bg-black text-light py-5" id="shop">
-      <Container>
+      <Container fluid>
         <h2 className="text-info mb-4 text-center">Featured Products</h2>
         <Row className="g-4">
           {sampleProducts.map(product => (

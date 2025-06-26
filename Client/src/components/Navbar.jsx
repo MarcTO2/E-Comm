@@ -3,8 +3,8 @@ import { Container, Nav, Navbar as BsNavbar } from "react-bootstrap";
 
 const Navbar = () => {
     return (
-        <BsNavbar bg="dark" variant="dark" expand="lg" className="py-3">
-            <Container>
+        <BsNavbar bg="dark" variant="dark" expand="lg" sticky="top" className="py-3 shadow-sm">
+            <Container fluid>
                 <BsNavbar.Brand href="/" className="fw-bold text-info fs-4">
                     StyleSculpt
                 </BsNavbar.Brand>
